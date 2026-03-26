@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spark Local | Digital Marketing for Victorian Small Businesses</title>
+  <meta name="description" content="Spark Local helps small businesses across Victoria get found online, grow their customer base, and build a digital presence that works.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Replace favicon.png with your own square logo file (512x512px recommended) -->
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+  <!-- ============================================================
+       ACCESSIBILITY: Skip navigation link
+       Allows keyboard users to jump straight to page content
+       ============================================================ -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================================
+       NAVIGATION
+       aria-current="page" is set on the active page link
+       ============================================================ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Spark Local home page">Spark<span>Local</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="nav-cta">Get in touch</a></li>
+      </ul>
+      <button class="nav-mobile-btn" id="menu-btn"
+        aria-expanded="false" aria-controls="nav-links"
+        aria-label="Open navigation menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main">
+
+    <!-- ── HERO ────────────────────────────────────────────────── -->
+    <!-- Animated teal orbs sit inside .orb-container.
+         JS at the bottom of the file applies a scroll parallax offset.
+         prefers-reduced-motion (in style.css) disables all animation. -->
+    <section class="hero page-top" aria-labelledby="hero-heading">
+      <div class="orb-container" aria-hidden="true">
+        <div class="orb" id="orb1"
+          style="width:520px;height:520px;top:-110px;right:-110px;animation-duration:18s;"></div>
+        <div class="orb" id="orb2"
+          style="width:280px;height:280px;bottom:-60px;left:3%;opacity:0.07;animation-duration:22s;animation-delay:-6s;"></div>
+        <div class="orb" id="orb3"
+          style="width:160px;height:160px;top:40%;right:28%;opacity:0.06;animation-duration:14s;animation-delay:-3s;"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 id="hero-heading" class="fade-up">
+            More customers<br>for <em>your</em> local<br>business.
+          </h1>
+          <p class="hero-lead fade-up-2">
+            We help small businesses across Victoria get found on Google,
+            build a real online presence, and turn digital visitors into
+            paying customers.
+          </p>
+          <div class="hero-btns fade-up-3">
+            <a href="services.html" class="btn btn-primary">See our services</a>
+            <a href="contact.html" class="btn btn-outline-light">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WHAT WE OFFER ────────────────────────────────────────── -->
+    <section aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What we do</span>
+          <h2 id="services-heading" class="section-title">
+            Everything a local business<br>needs to grow online
+          </h2>
+          <p class="section-subtitle">
+            A full suite of digital marketing services built for Victorian
+            small businesses. Pick exactly what you need, or choose one of
+            our tailored bundles.
+          </p>
+        </div>
+        <div class="grid-3">
+
+          <div class="card">
+            <div class="svc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Get found on Google</h3>
+            <p>Google Business Profile setup, local SEO, and search ads that
+               put your business in front of locals who are actively looking for
+               what you offer.</p>
+          </div>
+
+          <div class="card">
+            <div class="svc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Social media that works</h3>
+            <p>Regular posts, paid ads, and short-form video content across
+               Facebook, Instagram, and TikTok, all managed for you so you can
+               focus on running your business.</p>
+          </div>
+
+          <div class="card">
+            <div class="svc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Accessible websites</h3>
+            <p>We bring your website in line with Australia's web accessibility
+               legislation, reducing your legal exposure and improving your
+               visibility in Google search at the same time.</p>
+          </div>
+
+          <div class="card">
+            <div class="svc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3>Fast, mobile-ready sites</h3>
+            <p>Speed and mobile optimisation that helps your site rank higher
+               and convert more visitors, because a slow or broken mobile
+               experience loses customers before they even reach you.</p>
+          </div>
+
+          <div class="card">
+            <div class="svc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3>Email newsletters</h3>
+            <p>Monthly emails that keep past customers coming back, written,
+               designed, and sent entirely by us using your existing subscriber
+               list.</p>
+          </div>
+
+          <div class="card">
+            <div class="svc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>Clear monthly reports</h3>
+            <p>Plain-English reports every month so you always know exactly
+               what is happening with your digital presence and what we are
+               doing next.</p>
+          </div>
+
+        </div>
+        <div style="text-align:center;margin-top:44px;">
+          <a href="services.html" class="btn btn-outline">
+            View all services and pricing
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WHO WE HELP ───────────────────────────────────────────── -->
+    <section aria-labelledby="who-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Who we help</span>
+          <h2 id="who-heading" class="section-title">
+            Built for Victorian<br>small businesses
+          </h2>
+          <p class="section-subtitle">
+            If your business relies on local customers and you want more of
+            them, we can help. We work with businesses across metro Melbourne
+            and regional Victoria.
+          </p>
+        </div>
+        <!-- Industry pills — add or remove items here as needed -->
+        <ul class="pills" aria-label="Industries we work with">
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Cafes and restaurants</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Tradies and builders</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Health and wellness</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Retail and boutiques</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Professional services</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Home services</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Automotive</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Childcare and education</li>
+          <li class="pill"><span class="pill-dot" aria-hidden="true"></span>Any business that values its local community</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── HOW SPARK LOCAL DOES IT ──────────────────────────────── -->
+    <!-- This section contains:
+         1. Three value bullet points (transparent, communicative, results-driven)
+         2. A swipeable / arrow-navigable testimonial carousel
+         To add a testimonial: copy one .testimonial-card block and update
+         the text. To add a client photo: replace the placeholder div with
+         <img src="your-photo.jpg" alt="Client name"> inside .testimonial-photo -->
+    <section aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">How we work</span>
+          <h2 id="how-heading" class="section-title">
+            The Spark Local difference
+          </h2>
+          <p class="section-subtitle">
+            We are not a faceless agency. Every client works directly with us,
+            and we hold ourselves to a clear set of principles.
+          </p>
+        </div>
+
+        <!-- Value bullet points -->
+        <div class="value-points" role="list" aria-label="Our working principles">
+          <div class="value-point" role="listitem">
+            <span class="vp-dot" aria-hidden="true"></span>
+            <span><strong>Transparent by default.</strong> You always know what we are doing, why, and what it costs. Every strategy is explained, every invoice is itemised.</span>
+          </div>
+          <div class="value-point" role="listitem">
+            <span class="vp-dot" aria-hidden="true"></span>
+            <span><strong>Genuinely communicative.</strong> We proactively keep you in the loop. You will never be left wondering what is happening with your business.</span>
+          </div>
+          <div class="value-point" role="listitem">
+            <span class="vp-dot" aria-hidden="true"></span>
+            <span><strong>Focused on real results.</strong> Every service we offer is tied to a metric you can see: more traffic, more calls, more customers.</span>
+          </div>
+        </div>
+
+        <!-- Testimonial carousel -->
+        <!-- ARIA: role="region" with label makes this a named landmark for screen readers -->
+        <div class="testimonial-wrapper" role="region" aria-label="Client testimonials" aria-roledescription="carousel">
+
+          <div class="testimonial-track-outer">
+            <div class="testimonial-track" id="ttrack" aria-live="polite">
+
+              <!-- ── TESTIMONIAL 1 ── replace placeholder text with real review -->
+              <div class="testimonial-card" role="group" aria-roledescription="slide" aria-label="Testimonial 1 of 3">
+                <!-- To add a photo: replace the div below with
+                     <img src="client1.jpg" alt="Photo of [Name]"> -->
+                <div class="testimonial-photo" aria-hidden="true">
+                  <span class="testimonial-photo-placeholder">JD</span>
+                </div>
+                <p class="testimonial-quote">
+                  "Add your client's review here. This is placeholder text
+                  that you will replace with a real testimonial once you
+                  have collected reviews from your first clients."
+                </p>
+                <div class="testimonial-name">Client Name</div>
+                <div class="testimonial-biz">Business Name, Suburb VIC</div>
+              </div>
+
+              <!-- ── TESTIMONIAL 2 ── replace placeholder text with real review -->
+              <div class="testimonial-card" role="group" aria-roledescription="slide" aria-label="Testimonial 2 of 3">
+                <div class="testimonial-photo" aria-hidden="true">
+                  <span class="testimonial-photo-placeholder">AB</span>
+                </div>
+                <p class="testimonial-quote">
+                  "Add your second client's review here. Replace the initials
+                  above with the client's initials, or swap in a real photo
+                  once you have one."
+                </p>
+                <div class="testimonial-name">Client Name</div>
+                <div class="testimonial-biz">Business Name, Suburb VIC</div>
+              </div>
+
+              <!-- ── TESTIMONIAL 3 ── replace placeholder text with real review -->
+              <div class="testimonial-card" role="group" aria-roledescription="slide" aria-label="Testimonial 3 of 3">
+                <div class="testimonial-photo" aria-hidden="true">
+                  <span class="testimonial-photo-placeholder">MK</span>
+                </div>
+                <p class="testimonial-quote">
+                  "Add your third client's review here. To add more
+                  testimonials, copy this entire .testimonial-card block
+                  and paste it inside .testimonial-track."
+                </p>
+                <div class="testimonial-name">Client Name</div>
+                <div class="testimonial-biz">Business Name, Suburb VIC</div>
+              </div>
+
+            </div><!-- /testimonial-track -->
+          </div><!-- /testimonial-track-outer -->
+
+          <!-- Carousel controls -->
+          <div class="testimonial-controls">
+            <button class="tctl-btn" id="tprev" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="tctl-dots" role="tablist" aria-label="Select testimonial">
+              <button class="tctl-dot active" role="tab" aria-selected="true"  aria-label="Testimonial 1" data-idx="0"></button>
+              <button class="tctl-dot"        role="tab" aria-selected="false" aria-label="Testimonial 2" data-idx="1"></button>
+              <button class="tctl-dot"        role="tab" aria-selected="false" aria-label="Testimonial 3" data-idx="2"></button>
+            </div>
+            <button class="tctl-btn" id="tnext" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+
+        </div><!-- /testimonial-wrapper -->
+      </div>
+    </section>
+
+    <!-- ── CTA BANNER ────────────────────────────────────────────── -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 id="cta-heading">Ready to get more local customers?</h2>
+        <p>
+          Start with a free 15-minute consultation. We will show you exactly
+          where your biggest digital opportunities are, no obligation, no jargon.
+        </p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn btn-white">Send us a message</a>
+          <a href="services.html" class="btn btn-outline-light">Explore services</a>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ============================================================
+       FOOTER
+       Update ABN once registered (search for "[Your ABN]")
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">Spark<span>Local</span></div>
+          <p>Digital marketing for Victorian small businesses.
+             Friendly, local, and focused on real results.</p>
+        </div>
+        <nav aria-label="Footer pages">
+          <div class="footer-col">
+            <h4>Pages</h4>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+        <div class="footer-col">
+          <h4>Get in touch</h4>
+          <a href="mailto:jay@sparklocal.com.au">jay@sparklocal.com.au</a>
+          <a href="contact.html">Send a message</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <!-- Update year each January -->
+        <span>2026 Spark Local. All rights reserved.</span>
+        <!-- Replace [Your ABN] with your actual ABN once registered -->
+        <span>Victoria, Australia &nbsp; ABN: [Your ABN]</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       1. Mobile navigation menu toggle
+       2. Testimonial carousel (swipe + arrows + dots)
+       3. Animated orb scroll parallax
+       ============================================================ -->
+  <script>
+    /* ── 1. Mobile nav ─────────────────────────────────────────── */
+    const menuBtn  = document.getElementById('menu-btn');
+    const navLinks = document.getElementById('nav-links');
+    menuBtn.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+        navLinks.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.focus();
+      }
+    });
+    document.addEventListener('click', e => {
+      if (!menuBtn.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    /* ── 2. Testimonial carousel ───────────────────────────────── */
+    const track  = document.getElementById('ttrack');
+    const dots   = document.querySelectorAll('.tctl-dot');
+    const slides = track.querySelectorAll('.testimonial-card');
+    let   current = 0;
+
+    function goTo(idx) {
+      current = (idx + slides.length) % slides.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => {
+        d.classList.toggle('active', i === current);
+        d.setAttribute('aria-selected', String(i === current));
+      });
+    }
+
+    document.getElementById('tprev').addEventListener('click', () => goTo(current - 1));
+    document.getElementById('tnext').addEventListener('click', () => goTo(current + 1));
+    dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.idx)));
+
+    /* Touch / swipe support */
+    let touchStartX = 0;
+    track.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend',   e => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(dx) > 40) goTo(dx < 0 ? current + 1 : current - 1);
+    });
+
+    /* ── 3. Orb scroll parallax ────────────────────────────────── */
+    /* Check for reduced motion preference before adding parallax */
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReduced) {
+      const orbs = [
+        { el: document.getElementById('orb1'), speed: 0.04 },
+        { el: document.getElementById('orb2'), speed: 0.07 },
+        { el: document.getElementById('orb3'), speed: 0.05 },
+      ];
+      let ticking = false;
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            const y = window.scrollY;
+            orbs.forEach(o => {
+              if (o.el) o.el.style.transform = `translateY(${y * o.speed}px)`;
+            });
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }, { passive: true });
+    }
+  </script>
+
+</body>
+</html>
