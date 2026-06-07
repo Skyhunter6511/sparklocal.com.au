@@ -391,13 +391,6 @@ section:nth-child(even) { background: var(--sand); }
 .footer-col a:hover { color: var(--teal-mid); }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; font-size: 0.82rem; color: rgba(255,255,255,0.32); flex-wrap: wrap; gap: 8px; }
 
-/* ── Fade-up animation (page load) ─────────────────────────────── */
-@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-.fade-up   { animation: fadeUp 0.55s ease both; }
-.fade-up-2 { animation: fadeUp 0.55s 0.1s ease both; }
-.fade-up-3 { animation: fadeUp 0.55s 0.2s ease both; }
-.fade-up-4 { animation: fadeUp 0.55s 0.3s ease both; }
-
 /* ── Responsive ────────────────────────────────────────────────── */
 @media (max-width: 900px) {
   .grid-3, .pkg-grid { grid-template-columns: 1fr; }
